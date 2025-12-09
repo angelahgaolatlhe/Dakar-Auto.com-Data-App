@@ -11,9 +11,9 @@ st.markdown("<p style='text-align:center;'>Insights from cleaned (no missing val
 st.markdown("---")
 
 # Load data
-cars = pd.read_csv('/home/angelah/python_env/data/dakar_auto_voitures-4(clean).csv')
-motos = pd.read_csv('/home/angelah/python_env/data/dakar_auto_motocycles(clean).csv')
-rentals = pd.read_csv('/home/angelah/python_env/data/dakar_auto_rentals(clean).csv')
+cars = pd.read_csv('data/dakar_auto_voitures-4(clean).csv')
+motos = pd.read_csv('data/dakar_auto_motocycles(clean).csv')
+rentals = pd.read_csv('data/dakar_auto_rentals(clean).csv')
 
 # summary section
 st.markdown("""
