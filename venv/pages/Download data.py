@@ -29,6 +29,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load data
-load_(pd.read_csv('/home/angelah/python_env/data/dakar_auto_voitures-4.csv'), 'Cars', '1')
-load_(pd.read_csv('/home/angelah/python_env/data/Dakar-auto-motocycles.csv'), 'Motocycles & Scooters', '2')
-load_(pd.read_csv('/home/angelah/python_env/data/Dakar-auto-rentals.csv'), 'Car Rentals', '3')
+load_(pd.read_csv('data/dakar_auto_voitures-4.csv'), 'Cars', '1')
+load_(pd.read_csv('data/Dakar-auto-motocycles.csv'), 'Motocycles & Scooters', '2')
+load_(pd.read_csv('data/Dakar-auto-rentals.csv'), 'Car Rentals', '3')
