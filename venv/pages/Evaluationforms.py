@@ -20,7 +20,7 @@ google_form_url = "https://forms.gle/DhyHTy7F2iNpYJQH8"
 
 # Kobotoolbox Column
 with col1:
-    st.image("/home/angelah/python_env/data/kobotoolbox.png", width=100)
+    st.image("data/kobotoolbox.png", width=100)
     if st.button("Open Kobotoolbox Form", type="primary"):
         # Auto-redirect using JS
         redirect_script = f"""
